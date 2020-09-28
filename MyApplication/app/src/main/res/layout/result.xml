@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/result_nameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="">
+    </TextView>
+
+    <TextView
+        android:id="@+id/result_ageId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/result_nameId"
+        android:text="">
+    </TextView>
+
+    <TextView
+        android:id="@+id/result_emailId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/result_ageId"
+        android:text="">
+    </TextView>
+
+
+    <Button
+        android:id="@+id/button_retour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retour"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true">
+    </Button>
+</RelativeLayout>

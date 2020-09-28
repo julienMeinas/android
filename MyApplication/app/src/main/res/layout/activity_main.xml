@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/msg_bienvenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/message_bienvenue"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textViewNomId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_votreNom"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/msg_bienvenue"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/EditTextNomId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/textViewNomId">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewAgeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_votreAge"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/EditTextNomId">
+    </TextView>
+
+    <EditText
+        android:id="@+id/EditTextAgeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/textViewAgeId">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewEmailId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_votreEmail"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/EditTextAgeId">
+    </TextView>
+
+    <EditText
+        android:id="@+id/EditTextEmailId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/textViewEmailId">
+    </EditText>
+
+    <Button
+        android:id="@+id/button_envoyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditTextEmailId"
+        android:layout_centerInParent="true"
+        android:text="Envoyer">
+
+    </Button>
+
+</RelativeLayout>

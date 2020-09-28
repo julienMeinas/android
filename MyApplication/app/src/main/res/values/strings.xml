@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="message_bienvenue">Bienvenue à toi</string>
+    <string name="msg_ecrit_ton_msg">Ecrit ton message ci-dessous</string>
+
+    <string name="textView_votreNom">Votre nom : </string>
+    <string name="textView_votreAge">Votre âge : </string>
+    <string name="textView_votreEmail">Votre email : </string>
+</resources>
